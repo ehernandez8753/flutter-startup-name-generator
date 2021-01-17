@@ -12,6 +12,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Startup Name Generator',
+      theme: ThemeData(
+        primaryColor: Colors.blue,
+      ),
       home: RandomWords(),
     );
   }
@@ -24,7 +27,6 @@ class RandomWords extends StatefulWidget {
 
 class _RandomWordsState extends State<RandomWords> {
   final _suggestions = <WordPair>[];
-  final _biggerFont = TextStyle(fontSize: 18.0);
   final _saved = Set<WordPair>();
 
   void _pushSaved() {
@@ -36,7 +38,9 @@ class _RandomWordsState extends State<RandomWords> {
               return ListTile(
                 title: Text(
                   pair.asPascalCase,
-                  style: _biggerFont,
+                  style: TextStyle(
+                    fontSize: 18,
+                  ),
                 ),
               );
             },
@@ -90,7 +94,9 @@ class _RandomWordsState extends State<RandomWords> {
     return ListTile(
       title: Text(
         pair.asPascalCase,
-        style: _biggerFont,
+        style: TextStyle(
+          fontSize: 18,
+        ),
       ),
       trailing: Icon(
         alreadySaved ? Icons.favorite : Icons.favorite_border,
