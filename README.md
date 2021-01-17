@@ -10,3 +10,4 @@ This project is a starting point for a deeper study of Flutter. This app randoml
 
 *Gif of App in Use*
 
+![](flutterStartupNameGenGif.gif)
