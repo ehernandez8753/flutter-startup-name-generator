@@ -4,13 +4,9 @@ A new Flutter project.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+This project is a starting point for a deeper study of Flutter. This app randomly generates startup company names by accessing the english_words external library found on pub.dev. It also allows a user to select their favorite suggestions, which then are visible in a separate route.
 
-A few resources to get you started if this is your first Flutter project:
+**Related Media**
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+*Gif of App in Use*
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
